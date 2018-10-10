@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{courses.html}, nofooter  
+==Coursework 
+
+== Controls
+- Mathematical Methods in Engineering (E231, [https://www2.eecs.berkeley.edu/Faculty/Homepages/poolla.html Prof. Kameshwar Poolla])
+- Advanced Control I (MEC232, [https://www2.eecs.berkeley.edu/Faculty/Homepages/poolla.html Prof. Kameshwar Poolla])
+- Advanced Control II (ME233, [https://www.me.berkeley.edu/people/faculty/mark-mueller Prof. Mark Mueller])
+- Nonlinear Systems (MEC237, [https://www2.eecs.berkeley.edu/Faculty/Homepages/arcak.html Prof. Murat Arcak])
+- Advanced Special Topics of Control (ME292B, [https://www.me.berkeley.edu/people/faculty/masayoshi-tomizuka, Prof. Masayoshi Tomizuka])
+
+== Machine Learning and Artificial Intelligence
+- Introduction to Artificial Intelligence (CS188, [http://people.eecs.berkeley.edu/~satishr/ Prof. Satish Rao])
+- Introduction to Machine Learning (CS289, [https://people.eecs.berkeley.edu/~jrs/ Prof. Jonathan Shewchuk])
+- Deep Reinforcement Learing (CS294-112, [https://people.eecs.berkeley.edu/~svlevine/ Prof. Sergey Levine])
+
+
+== Optimization
+- Optimization Models and Applications (EECS227AT, [https://people.eecs.berkeley.edu/~elghaoui/ Prof. Laurent El Ghaoui] and [https://bayen.eecs.berkeley.edu/content/alexandre-bayen Prof. Alexandre Bayen])
+- Convex Optimization (EE227BT, [https://www2.eecs.berkeley.edu/Faculty/Homepages/anantharam.html Prof. Venkat Anantharam]) 
+- Mathematical Programming II (IEOR262B, [http://lavaei.ieor.berkeley.edu/ Prof. Javad Lavaei])
+
+== Computer Vision
+- Computer Vision (CS280, [https://people.eecs.berkeley.edu/~efros/ Prof. Alexei Efros] and [https://people.eecs.berkeley.edu/~malik/ Prof. Jitendra Malik])
+- Designing, Visualizing and Understanding Deep Neural Networks (CS294-129, [https://www2.eecs.berkeley.edu/Faculty/Homepages/canny.html Prof. John Canny])
+
+
+
+
+

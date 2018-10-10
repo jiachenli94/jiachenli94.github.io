@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+== About Me
+
+~~~
+{}{img_left}{1.png}{alt text}{300px}{300px}{}
+*Jiachen Li*, Ph.D. Student \n
+[https://scholar.google.com/citations?hl=en&user=1_f79vUAAAAJ Google Scholar Profile] \n
+[https://www.linkedin.com/in/jiachen-li/ LinkedIn Profile] \n\n
+[http://www.me.berkeley.edu/ Department of Mechanical Engineering] \n
+[http://msc.berkeley.edu Mechanical Systems Control (MSC) Laboratory] \n
+[https://deepdrive.berkeley.edu/ Berkeley DeepDrive (BDD)] \n
+[https://www.berkeley.edu/ University of California, Berkeley] \n\n
+2521 Hearst Ave \n
+Berkeley, CA 94720, USA \n
+Office: 2103 Etcheverry Hall \n 
+Email: [jiachen_li@berkeley.edu jiachen_li AT berkeley.edu] \n
+
+
+~~~
+
+== Short Biography
+I am currently a third year Ph.D. student in Mechanical Engineering at [https://www.berkeley.edu/ University of California, Berkeley (UC Berkeley)]. My advisor is [https://www.me.berkeley.edu/people/faculty/masayoshi-tomizuka Prof. Masayoshi Tomizuka] in [http://msc.berkeley.edu Mechanical Systems Control (MSC) Laboratory] at UC Berkeley. I am doing research for multiple projects in [https://deepdrive.berkeley.edu/ Berkeley DeepDrive (BDD)].
+My research interests include machine learning, artificial intelligence, optimization approaches and their applications to probabilistic behavior prediction, risk assessment, decision making and motion planning for intelligent agent systems such as autonomous vehicles and robotics.
+
+Prior to UC Berkeley, I received the B.Eng. degree in Automation from Harbin Institute of Technology (HIT), Harbin, China, in 2016. While at HIT, I was an undergraduate student researcher in Research Institute of Intelligent Control and Systems.
+
+== Fields of Interests
+Autonomous Driving, robotics, artificial intellgence, machine learning, optimization, probabilistic inference, decision making and motion planning.
+
+
+
+
+
+

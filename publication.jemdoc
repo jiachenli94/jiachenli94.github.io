@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{publication.html}, nofooter  
+== Publication 
+
+== Journal Papers
+- *A Novel Variable Selection Approach for Redundant Information Elimination Purpose of Process Control* \[[https://ieeexplore.ieee.org/document/7328263 Paper]\]\n 
+  *J. Li*, C. Duan and Z. Fei \n
+ /IEEE Transactions on Industrial Electronics/, 63(3), 1737-1744, 2016.
+- *A Variable Selection Aided Residual Generator Design Approach for Process Control and Monitoring* \[[https://www.sciencedirect.com/science/article/pii/S0925231215010231 Paper]\] \n
+  C. Duan, Z. Fei and *J. Li* \n
+  /Neurocomputing/, 171, 1013-1020, 2016.
+- *Finite-time Hinf Control of Switched Systems with Mode-dependent Average Dwell Time*  \[[https://www.sciencedirect.com/science/article/pii/S0016003215004147 Paper]\] \n
+  S. Shi, Z. Fei and *J. Li* \n
+  /Journal of the Franklin Institute/, 353(1), 221-234, 2016.
+
+== Conference Proceedings
+- *Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning* \n
+  *J. Li*, H. Ma and M. Tomizuka \n
+  /under review/.
+- *Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real* \[[https://arxiv.org/abs/1809.02927 Paper]\]\n 
+  *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
+  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, to appear.
+- *Generic Vehicle Tracking Framework Capable of Handling Occlusions Based on Modified Mixture Particle Filter* \[[https://arxiv.org/abs/1809.10237 Paper]\]\n 
+  *J. Li*, W. Zhan and M. Tomizuka \n
+  /In 2018 IEEE Intelligent Vehicles Symposium (IV)/, 936-942, 2018. 
+- *Towards a Fatality-Aware Benchmark of Probabilistic Reaction Prediction in Highly Interactive Driving Scenarios* \[[https://arxiv.org/abs/1809.03478 Paper]\]\n 
+  W. Zhan, L. Sun, Y. Hu, *J. Li* and M. Tomizuka \n
+  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, to appear.
+- *Safe and Feasible Motion Generation for Autonomous Driving via Constrained Policy Net* \[[https://ieeexplore.ieee.org/abstract/document/8216790 Paper]\] \n
+  W. Zhan, *J. Li*, Y. Hu and M. Tomizuka \n
+  /In Industrial Electronics Society, IECON 2017-43rd Annual Conference of the IEEE/, 4588-4593, 2017.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+# jemdoc: menu{MENU}{cv.html}, nofooter  
+== Curriculum Vitae
+
+== Education
+- Ph.D. in Mechanical Engineering, University of California, Berkeley, USA, 2016 - present.
+-- Major: Controls		
+-- Minor: Artificial Intelligence and Machine Learning, Optimization
+-- Advisor: [https://www.me.berkeley.edu/people/faculty/masayoshi-tomizuka Prof. Masayoshi Tomizuka]
+
+- B.Eng. in Automation, Harbin Institute of Technology, Harbin, China, 2012 - 2016.
+-- Advisors: [http://homepage.hit.edu.cn/gaohuijun Prof. Huijun Gao] and [http://homepage.hit.edu.cn/yinshen Prof. Shen Yin]
+
+== Professional Experience
+- /*Graduate Student Researcher*/, August 2016 - present \n
+  Mechanical Systems Control Laboratory & Berkeley DeepDrive, UC Berkeley, Berkeley, CA, USA
+- /*Research Assistant*/, March 2014 - June 2016 \n
+  Research Institute of Intelligent Control and Systems, Harbin Institute of Technology, Harbin, China
+- /*Teaching Assistant*/, September 2014 - January 2015 \n
+  Automatic Control Theory, Harbin Institute of Technology, Harbin, China
+- /*Deputy Director*/, Octomber 2012 - June 2014 \n
+  Harbin Institute of Technology Student Union, Harbin, China
+
+
+== Activities and Memberships
+*Activities* \n
+- Reviewer for /IEEE Transactions on Industrial Electronics/, 2017 - present
+
+*Memberships* \n
+- Student Member of IEEE Intelligent Transportation Systems Society, 2016 - present
+- Student Member of IEEE Robotics and Automation Society, 2016 - present
+- Student Member of IEEE, 2016 - present
+
+
+== Honors and Awards
+- Top Ten Outstanding Graduate at Harbin Institute of Technology, 2016
+- Meritorious Winner in Mathematical/Interdisciplinary Contest in Modeling, 2015
+
+
+== Computer Skills
+*Programming* \n
+- Python, C & C\+\+, MATLAB/Simulink
+
+*Deep Learning Framework* \n
+- TensorFlow, Caffe, PyTorch
+
+*Design and Simulation* \n
+- ROS, Multisim, AutoCAD, OrCAD
+
+
+
+
+
+
+

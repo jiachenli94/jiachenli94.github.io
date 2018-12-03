@@ -2,6 +2,9 @@
 == Publication 
 
 == Journal Papers
+- *Generic Tracking and Prediction Framework and Its Application in Autonomous Driving* \n
+  *J. Li*, W. Zhan, Y. Hu and M. Tomizuka \n
+  /under review/.
 - *A Novel Variable Selection Approach for Redundant Information Elimination Purpose of Process Control* \[[https://ieeexplore.ieee.org/document/7328263 Paper]\]\n 
   *J. Li*, C. Duan and Z. Fei \n
  /IEEE Transactions on Industrial Electronics/, 63(3), 1737-1744, 2016.
@@ -13,12 +16,15 @@
   /Journal of the Franklin Institute/, 353(1), 221-234, 2016.
 
 == Conference Proceedings
+- *Conditional Generative Neural System for Probabilistic Trajectory Prediction* \n
+  *J. Li*, H. Ma and M. Tomizuka \n
+  /under review/.
 - *Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning* \n
   *J. Li*, H. Ma and M. Tomizuka \n
   /under review/.
 - *Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real* \[[https://arxiv.org/abs/1809.02927 Paper]\]\n 
   *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
-  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, to appear.
+  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, 2018.
 - *Generic Vehicle Tracking Framework Capable of Handling Occlusions Based on Modified Mixture Particle Filter* \[[https://arxiv.org/abs/1809.10237 Paper]\]\n 
   *J. Li*, W. Zhan and M. Tomizuka \n
   /In 2018 IEEE Intelligent Vehicles Symposium (IV)/, 936-942, 2018. 

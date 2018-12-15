@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Research Projects</title>
+<title>Research and Projects</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -20,25 +20,58 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Research Projects</h1>
+<h1>Research and Projects</h1>
 </div>
-<h2>Interaction-aware Probabilistic Behavior Prediction via Adversarial Learning</h2>
+<h2>Interaction-Aware Probabilistic Behavior and Trajectory Prediction</h2>
+<p><i>The research aims at recognizing driver behaviors and traffic situations as well as predicting future trajectories for
+multiple highly interactive agents jointly. The methodologies mainly cover Bayesian theories, probabilistic graphical models, deep
+learning as well as computer vision techniques.</i></p>
+<table class="imgtable"><tr><td>
+<img src="scenarios.png" alt="alt text" width="300px" height="160px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>Effective understanding of the environment and accurate trajectory prediction of surrounding dynamic obstacles are critical for intelligent systems such as autonomous vehicles and wheeled mobile robotics navigating in complex scenarios to achieve safe and high-quality decision making, motion planning and control. In this work, we propose a conditional generative neural system (CGNS) for probabilistic trajectory prediction to approximate the data distribution, from which realistic, feasible and diverse future trajectory hypotheses can be sampled. The system combines the strengths of conditional latent space learning (CLSL) and variational divergence minimization (VDM), and leverages both static context and interaction information with soft attention mechanisms. We also propose a regularization method for incorporating soft constraints into deep neural networks with differentiable barrier functions, which can regulate and push the generated samples into the feasible regions. <br />
+[Paper][Website]</p>
+</li>
+</ul>
+</td></tr></table>
 <table class="imgtable"><tr><td>
 <img src="GAN_prediction.png" alt="alt text" width="300px" height="130px" />&nbsp;</td>
-<td align="left"><p><b>Abstract</b>: In order for appropriate and high-quality decision making and motion planning of intelligent agent systems such as intelligent robotics and autonomous vehicles, accurate probabilistic predictions for surrounding interactive objects is a crucial prerequisite. Although many research studies have been devoted to make predictions on a single entity, it remains an open challenge to forecast future behaviors for multiple interactive agents simultaneously. In this work, we take advantage of the Generative Adversarial Network (GAN) due to its capability of distribution learning and propose a generic multi-agent probabilistic prediction and tracking framework which takes the interactions among multiple entities into account, in which all the entities are treated as a whole. However, since GAN is very hard to train, we make an empirical research and present the relationship between training stability, training performance and hyperparameter values with a numerical case study. The results imply that the proposed model can capture both the mean, variance and multi-modalities of groundtruth distribution. Moreover, we apply the proposed approach to a real-world vehicle tracking and behavior prediction task to demonstrate its effectiveness and accuracy. The results illustrate that the proposed model trained by adversarial learning can achieve a better prediction performance than other state-of-the-art models trained by traditional supervised learning which maximizes the data likelihood. The well-trained model can also be utilized as an implicit proposal distribution for particle filtered based Bayesian state estimation which can improve tracking accuracy. <br />
-[Paper coming soon!]</p>
+<td align="left"><ul>
+<li><p>In this work, we take advantage of the Generative Adversarial Network (GAN) due to its capability of distribution learning and propose a generic multi-agent probabilistic prediction and tracking framework which takes the interactions among multiple entities into account, in which all the entities are treated as a whole. However, since GAN is very hard to train, we make an empirical research and present the relationship between training stability, training performance and hyperparameter values with a numerical case study. Moreover, we apply the proposed approach to a real-world vehicle tracking and behavior prediction task to demonstrate its effectiveness and accuracy. The well-trained model can also be utilized as an implicit proposal distribution for particle filtered based Bayesian state estimation which can improve tracking accuracy. <br />
+[Paper][<a href="http://msc.berkeley.edu/research/prediction-gan.html">Website</a>]</p>
+</li>
+</ul>
 </td></tr></table>
-<h2>Hierarchical Framework for Probabilistic Situation Prediction</h2>
 <table class="imgtable"><tr><td>
 <img src="LHMM_prediction.png" alt="alt text" width="300px" height="252px" />&nbsp;</td>
-<td align="left"><p><b>Abstract</b>: Accurate and robust recognition and prediction of traffic situation plays an important role in autonomous driving, which is a prerequisite for risk assessment and effective decision making. Although there exist a lot of works dealing with modeling driver behavior of a single object, it remains a challenge to make predictions for multiple highly interactive agents that react to each other simultaneously. In this project, we propose a generic probabilistic hierarchical recognition and prediction framework which employs a two-layer Hidden Markov Model (TLHMM) to obtain the distribution of potential situations and a learning-based dynamic scene evolution model to sample a group of future trajectories. Instead of predicting motions of a single entity, we propose to get the joint distribution by modeling multiple interactive agents as a whole system. Moreover, due to the decoupling property of the layered structure, our model is suitable for knowledge transfer from simulation to real world applications as well as among different traffic scenarios, which can reduce the computational efforts of training and the demand for a large data amount. A case study of highway ramp merging scenario is demonstrated to verify the effectiveness and accuracy of the proposed framework. <br />
-[<a href="https://arxiv.org/abs/1809.02927">Paper</a>]</p>
+<td align="left"><ul>
+<li><p>In this work, we propose a generic probabilistic hierarchical recognition and prediction framework for hierarchical time-series
+prediction, which consists of a behavior recognition module and a state evolution module， which employs a Deep Hidden Markov Model (DHMM) to obtain the distribution of potential situations and a learning-based dynamic scene evolution model to sample a group of future trajectories. Both modules in the proposed model are generic and flexible so as to be applied to a class of time-series prediction problems where behaviors can be separated into different levels. Instead of predicting motions of a single entity, we propose to get the joint distribution by modeling multiple interactive agents as a whole system. Moreover, due to the decoupling property of the layered structure, our model is suitable for knowledge transfer from simulation to real world applications as well as among different traffic scenarios, which can reduce the computational efforts of training and the demand for a large data amount. The proposed approaches have been evaluated from multiple aspects, which demonstrates great potential for intelligent vehicular systems and traffic surveillance systems. <br />
+[<a href="https://ieeexplore.ieee.org/document/8569780">Paper1</a>][Paper2][<a href="http://msc.berkeley.edu/research/prediction-lhmm.html">Website</a>]</p>
+</li>
+</ul>
 </td></tr></table>
-<h2>Occluded Object Tracking based on Modiﬁed Mixture Particle Filter </h2>
+<h2>Occluded Multi-Object Tracking and Motion Prediction</h2>
+<p><i>The research aims at realizing accurate and robust tracking of surrounding traffic participants simultaneously in a uniform framework as well as handling partial or complete occlusions by incorporating learning-based behavioral models to make long-term motion prediction. The methodologies mainly covers sequential Monte Carlo, deep learning and probabilistic graphical models.</i></p>
 <table class="imgtable"><tr><td>
-<img src="tracking.png" alt="alt text" width="301px" height="187px" />&nbsp;</td>
-<td align="left"><p><b>Abstract</b>: Accurate and robust tracking of surrounding road participants plays an important role in autonomous driving. However, there is usually no prior knowledge of the number of tracking targets due to object emergence, object disappearance and false alarms. To overcome this challenge, in this project we propose a generic vehicle tracking framework based on modified mixture particle filter, which can make the number of tracking targets adaptive to real-time observations and track all the vehicles within sensor range simultaneously in a uniform architecture without explicit data association. Each object corresponds to a mixture component whose distribution is non-parametric and approximated by particle hypotheses. Most tracking approaches employ vehicle kinematic models as the prediction model. However, it is hard for these models to make proper predictions when sensor measurements are lost or become low quality due to partial or complete occlusions. Moreover, these models are incapable of forecasting sudden maneuvers. To address these problems, we propose to incorporate learning-based behavioral models instead of pure vehicle kinematic models to realize prediction in the prior update of recursive Bayesian state estimation. Two typical driving scenarios including lane keeping and lane change are demonstrated to verify the effectiveness and accuracy of the proposed framework as well as the advantages of employing learning-based models. <br />
-[<a href="https://arxiv.org/abs/1809.10237">Paper</a>][<a href="https://www.youtube.com/watch?v=zbVQohw_uMc">Video</a>]</p>
+<img src="tracking.png" alt="alt text" width="300px" height="187px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>In this work, we propose a constrained mixture sequential Monte Carlo (CMSMC) method in which a mixture representation is incorporated in the estimated posterior distribution to maintain multi-modality. Multiple targets can be tracked simultaneously within a unified framework without explicit data association between observations and tracking targets. The number of mixture components and particles can adaptively evolve according to observations. Most tracking approaches for vehicle tracking employ kinematic models as the prediction model. However, it is hard for these models to make proper predictions when sensor measurements are lost or become low quality due to partial or complete occlusions. Therefore, the hierarchical time-series prediction model is employed as an implicit proposal distribution of CMSMC method so that a unified tracking and prediction framework is formulated, which makes a bridge for multi-target tracking and multi-agent prediction. <br />
+[<a href="https://ieeexplore.ieee.org/document/8500626">Paper1</a>][Paper2][<a href="https://www.youtube.com/watch?v=zbVQohw_uMc">Video</a>][<a href="http://msc.berkeley.edu/research/perception-pftracking.html">Website</a>]</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Solving Constrained Optimization Problems with Neural Networks</h2>
+<p><i>The research aimed at incorporating soft constraints into neural networks to solve nonlinear optimization problems.
+The proposed approach was used to obtain future trajectories of the ego vehicle.</i></p>
+<table class="imgtable"><tr><td>
+<img src="CPN.png" alt="alt text" width="300px" height="220px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>Policy networks have great potential to learn sophisticated driving policy under complicated interaction between human drivers. However, it is hard for policy networks to satisfy safety and feasibility constraints, which is not a challenging task for conventional motion generation methods, such as optimization-based approach. In this paper, we propose Constrained Policy Net (CPN), which can learn safe and
+feasible driving policy from arbitrary inequality-constrained optimization-based expert planners. Instead of supervised learning with L2 norm as the loss, we incorporate the domain knowledge of the expert planner directly into the training loss of the policy net by applying barrier functions to the safety and feasibility constraints of the optimization problem. An exemplar scenario with obstacles on both sides is used to implement the proposed CPN. Test results demonstrate that the policy net can learn to generate motions near boundaries of safety and feasibility constraints to achieve high driving quality as the baseline optimization while the constraints are satisfied. <br />
+[<a href="https://ieeexplore.ieee.org/document/8216790">Paper</a>]</p>
+</li>
+</ul>
 </td></tr></table>
 </td>
 </tr>

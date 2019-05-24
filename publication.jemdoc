@@ -18,10 +18,16 @@
 == Conference Proceedings
 - *Conditional Generative Neural System for Probabilistic Trajectory Prediction* \n
   *J. Li*, H. Ma and M. Tomizuka \n
-  /IEEE Conference on Computer Vision and Pattern Recognition (CVPR)/, under review.
+  /IEEE Conference on Robotics and Systems (IROS)/, under review.
+- *Coordination and Trajectory Prediction for Vehicle Interactions via Bayesian Generative Modeling* \n
+  *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
+  /In 2019 IEEE Intelligent Vehicles Symposium (IV)/, 2019.
+- *Wasserstein Generative Learning with Kinematic Constraints for Probabilistic Interactive Driving Behavior Prediction* \n
+  H. Ma, *J. Li*, W. Zhan and M. Tomizuka \n
+  /In 2019 IEEE Intelligent Vehicles Symposium (IV)/, 2019.
 - *Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning* \n
   *J. Li*, H. Ma and M. Tomizuka \n
-  /IEEE Conference on Robotics and Automation (ICRA)/, under review.
+  /In 2019 IEEE Conference on Robotics and Automation (ICRA)/, 2019.
 - *Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real* \[[https://arxiv.org/abs/1809.02927 Paper]\]\n 
   *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
   /In 2018 IEEE International Conference on Intelligent Transportation Systems/, 2018.
@@ -30,7 +36,7 @@
   /In 2018 IEEE Intelligent Vehicles Symposium (IV)/, 936-942, 2018. 
 - *Towards a Fatality-Aware Benchmark of Probabilistic Reaction Prediction in Highly Interactive Driving Scenarios* \[[https://arxiv.org/abs/1809.03478 Paper]\]\n 
   W. Zhan, L. Sun, Y. Hu, *J. Li* and M. Tomizuka \n
-  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, to appear.
+  /In 2018 IEEE International Conference on Intelligent Transportation Systems/, 2018.
 - *Safe and Feasible Motion Generation for Autonomous Driving via Constrained Policy Net* \[[https://ieeexplore.ieee.org/abstract/document/8216790 Paper]\] \n
   W. Zhan, *J. Li*, Y. Hu and M. Tomizuka \n
   /In Industrial Electronics Society, IECON 2017-43rd Annual Conference of the IEEE/, 4588-4593, 2017.

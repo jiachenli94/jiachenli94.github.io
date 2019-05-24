@@ -16,25 +16,25 @@
   /Journal of the Franklin Institute/, 353(1), 221-234, 2016.
 
 == Conference Proceedings
-- *Conditional Generative Neural System for Probabilistic Trajectory Prediction* \n
+- *Conditional Generative Neural System for Probabilistic Trajectory Prediction* \[[https://arxiv.org/abs/1905.01631 Preprint]\]\n
   *J. Li*, H. Ma and M. Tomizuka \n
   /IEEE Conference on Robotics and Systems (IROS)/, under review.
-- *Coordination and Trajectory Prediction for Vehicle Interactions via Bayesian Generative Modeling* \n
+- *Coordination and Trajectory Prediction for Vehicle Interactions via Bayesian Generative Modeling* \[[https://arxiv.org/abs/1905.00587 Preprint]\]\n
   *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
   /In 2019 IEEE Intelligent Vehicles Symposium (IV)/, 2019.
 - *Wasserstein Generative Learning with Kinematic Constraints for Probabilistic Interactive Driving Behavior Prediction* \n
   H. Ma, *J. Li*, W. Zhan and M. Tomizuka \n
   /In 2019 IEEE Intelligent Vehicles Symposium (IV)/, 2019.
-- *Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning* \n
+- *Interaction-aware Multi-agent Tracking and Probabilistic Behavior Prediction via Adversarial Learning* \[[https://arxiv.org/abs/1904.02390 Preprint]\]\n
   *J. Li*, H. Ma and M. Tomizuka \n
   /In 2019 IEEE Conference on Robotics and Automation (ICRA)/, 2019.
-- *Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real* \[[https://arxiv.org/abs/1809.02927 Paper]\]\n 
+- *Generic Probabilistic Interactive Situation Recognition and Prediction: From Virtual to Real* \[[https://ieeexplore.ieee.org/abstract/document/8569780 Paper]\]\n 
   *J. Li*, H. Ma, W. Zhan and M. Tomizuka \n
   /In 2018 IEEE International Conference on Intelligent Transportation Systems/, 2018.
-- *Generic Vehicle Tracking Framework Capable of Handling Occlusions Based on Modified Mixture Particle Filter* \[[https://arxiv.org/abs/1809.10237 Paper]\]\n 
+- *Generic Vehicle Tracking Framework Capable of Handling Occlusions Based on Modified Mixture Particle Filter* \[[https://ieeexplore.ieee.org/abstract/document/8500626 Paper]\]\n 
   *J. Li*, W. Zhan and M. Tomizuka \n
   /In 2018 IEEE Intelligent Vehicles Symposium (IV)/, 936-942, 2018. 
-- *Towards a Fatality-Aware Benchmark of Probabilistic Reaction Prediction in Highly Interactive Driving Scenarios* \[[https://arxiv.org/abs/1809.03478 Paper]\]\n 
+- *Towards a Fatality-Aware Benchmark of Probabilistic Reaction Prediction in Highly Interactive Driving Scenarios* \[[https://ieeexplore.ieee.org/abstract/document/8569785 Paper]\]\n 
   W. Zhan, L. Sun, Y. Hu, *J. Li* and M. Tomizuka \n
   /In 2018 IEEE International Conference on Intelligent Transportation Systems/, 2018.
 - *Safe and Feasible Motion Generation for Autonomous Driving via Constrained Policy Net* \[[https://ieeexplore.ieee.org/abstract/document/8216790 Paper]\] \n

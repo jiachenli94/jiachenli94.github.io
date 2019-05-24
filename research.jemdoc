@@ -11,16 +11,16 @@ learning as well as computer vision techniques./
 ~~~
 {}{img_left}{scenarios.png}{alt text}{300px}{250px}{}
 - In this work, in order to tackle the task of probabilistic prediction for multiple, interactive entities, we propose a coordination and trajectory prediction system (CTPS), which has a hierarchical structure including a macro-level coordination recognition module and a micro-level subtle pattern prediction module which solves a probabilistic generation task. We illustrate two types of representation of the coordination variable: categorized and real-valued, and compare their effects and advantages based on empirical studies. We also bring the ideas of Bayesian deep learning into deep generative models to generate diversified prediction hypotheses. \n
-\[IV2019\]\[Website\]
+\[[https://arxiv.org/abs/1905.00587 IV2019]\]\[Website\]
 
 - In this work, we propose a conditional generative neural system (CGNS) for probabilistic trajectory prediction to approximate the data distribution, from which realistic, feasible and diverse future trajectory hypotheses can be sampled. The system combines the strengths of conditional latent space learning (CLSL) and variational divergence minimization (VDM), and leverages both static context and interaction information with soft attention mechanisms. We also propose a regularization method for incorporating soft constraints into deep neural networks with differentiable barrier functions, which can regulate and push the generated samples into the feasible regions. \n
-\[Paper\]\[Website\]
+\[[https://arxiv.org/abs/1905.01631 Preprint]\]\[Website\]
 ~~~
 
 ~~~
 {}{img_left}{GAN_prediction.png}{alt text}{300px}{130px}{}
 - In this work, we take advantage of the Generative Adversarial Network (GAN) due to its capability of distribution learning and propose a generic multi-agent probabilistic prediction and tracking framework which takes the interactions among multiple entities into account, in which all the entities are treated as a whole. However, since GAN is very hard to train, we make an empirical research and present the relationship between training stability, training performance and hyperparameter values with a numerical case study. Moreover, we apply the proposed approach to a real-world vehicle tracking and behavior prediction task to demonstrate its effectiveness and accuracy. The well-trained model can also be utilized as an implicit proposal distribution for particle filtered based Bayesian state estimation which can improve tracking accuracy. \n
-\[ICRA2019\]\[[http://msc.berkeley.edu/research/prediction-gan.html Website]\]
+\[[https://arxiv.org/abs/1904.02390 ICRA2019]\]\[[http://msc.berkeley.edu/research/prediction-gan.html Website]\]
 ~~~
 
 ~~~

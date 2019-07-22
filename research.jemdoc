@@ -9,10 +9,10 @@ The methodologies mainly cover Bayesian theories, probabilistic graphical models
 == Projects
 - Interpretable and Data-Efficient Driving Behavior Generation via Deep Generative Probabilistic and Logic Models, 2018 - present 
 - Generic Motion Generation and Comprehension with Social Interactions, 2017 - present
-- Motion Prediction for Urban Autonomous Driving Based on Stochastic Policy Learned via Deep Neural Network, 2016 - presentt
+- Motion Prediction for Urban Autonomous Driving Based on Stochastic Policy Learned via Deep Neural Network, 2016 - present
 
 == Featured Work
-==== Interaction-Aware Probabilistic Behavior and Trajectory Prediction
+==== Interaction-Aware Probabilistic Behavior and Trajectory Prediction \[[https://github.com/jiachenli94/Interaction-aware-Trajectory-Prediction A Survey]\]
 ~~~
 {}{img_left}{scenarios.png}{alt text}{240px}{200px}{}
 - Effective understanding of the environment and accurate trajectory prediction of surrounding dynamic obstacles are critical for intelligent systems such as autonomous vehicles and wheeled mobile robotics navigating in complex scenarios to achieve safe and high-quality decision making, motion planning and control. \n

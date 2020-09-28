@@ -131,17 +131,17 @@
       <table align=center width=800px>
 
      <tr>
-       <span style="font-size:22px"><a href="https://karttikeya.github.io/">Jiachen Li*</a></span><sup>1,2</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/harshayu-girase-764b06153">Fan Yang*</a></span><sup>2</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/shreyas-agarwal-086267146">Masayoshi Tomizuka</a></span><sup>2</sup>,&nbsp;&nbsp;
-      <span style="font-size:22px"><a href="https://www.linkedin.com/in/kuan-hui-lee-23730370">Chiho Choi</a></span><sup>1</sup>&nbsp;&nbsp;
+       <span style="font-size:22px"><a href="https://jiachenli94.github.io/">Jiachen Li*</a></span><sup>1,2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="https://scholar.google.com/citations?user=Gi1y7DAAAAAJ&hl=en&authuser=1">Fan Yang*</a></span><sup>2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Masayoshi Tomizuka</a></span><sup>2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="http://www.chihochoi.me/">Chiho Choi</a></span><sup>1</sup>&nbsp;&nbsp;
    </tr>
 
 
      <tr>
        <td align=center colspan="2" style="font-size:22px">
        <center>
-       <sup>1</sup>Honda Research Institute
+       <sup>1</sup>Honda Research Institute USA, Inc.
        </center>
        </td>
 
@@ -167,8 +167,8 @@
           <tr>
                 
                  <span style="font-size:28px">
-                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-                <a href="https://www.youtube.com/watch?v=XCWCHwGlBgE">[Video](coming soon)</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Video](coming soon)</a> &nbsp; &nbsp; &nbsp; &nbsp;
                 <a href="bibtex.txt">[Bibtex]</a> &nbsp; &nbsp; &nbsp; &nbsp; 
 
               </span>
@@ -227,7 +227,7 @@
                         <img src = "teaser.jpg" height="500px"></img><br>
                   </center> -->
                   <br>
-                  <span style="font-size:20px"> Multi-agent interacting systems are prevalent in the world, from pure physical systems to complicated social dynamic systems. In many applications, effective understanding of the situation and accurate trajectory prediction of interactive agents play a significant role in downstream tasks, such as decision making and planning. In this paper, we propose a generic trajectory forecasting framework (named EvolveGraph) with explicit relational structure recognition and prediction via latent interaction graphs among multiple heterogeneous, interactive agents. Considering the uncertainty of future behaviors, the model is designed to provide multi-modal prediction hypotheses. Since the underlying interactions may evolve even with abrupt changes, and different modalities of evolution may lead to different outcomes, we address the necessity of dynamic relational reasoning and adaptively evolving the interaction graphs. We also introduce a double-stage training pipeline which not only improves training efficiency and accelerates convergence, but also enhances model performance. The proposed framework is evaluated on both synthetic physics simulations and multiple real- world benchmark datasets in various areas. The experimental results illustrate that our approach achieves state-of-the-art performance in terms of prediction accuracy.
+                  <span style="font-size:20px"> Multi-agent interacting systems are prevalent in the world, from pure physical systems to complicated social dynamic systems. In many applications, effective understanding of the situation and accurate trajectory prediction of interactive agents play a significant role in downstream tasks, such as decision making and planning. In this paper, we propose a generic trajectory forecasting framework (named EvolveGraph) with explicit relational structure recognition and prediction via latent interaction graphs among multiple heterogeneous, interactive agents. Considering the uncertainty of future behaviors, the model is designed to provide multi-modal prediction hypotheses. Since the underlying interactions may evolve even with abrupt changes, and different modalities of evolution may lead to different outcomes, we address the necessity of dynamic relational reasoning and adaptively evolving the interaction graphs. We also introduce a double-stage training pipeline which not only improves training efficiency and accelerates convergence, but also enhances model performance. The proposed framework is evaluated on both synthetic physics simulations and multiple real-world benchmark datasets in various areas. The experimental results illustrate that our approach achieves state-of-the-art performance in terms of prediction accuracy.
                   </td>
               </tr>
 
@@ -239,16 +239,19 @@
           </table>
 
 
-          <hr>
+          <hr> <br>
           <center><h1>Key Ideas and Contributions</h1></center>
           <table align=center width=600px>
               <tr>
                   <td width=700px>
+                    <br>
                     <center>
                         <img src = "graphical_model.png" height="300px"></img><br>
                   </center>
-                  <br>
-                  <span style="font-size:18px"> <b>Imitating the Human Path Planning Process</b>: We posit that pedestrians in the scene move towards a predetermined position and interactions such as social signalling shape their trajectories only locally while they still go along achieving their original intention. 
+                  <br><br>
+                  <span style="font-size:18px"> <b>Generic Prediction Framework</b>: We propose a generic trajectory forecasting framework with explicit interaction modeling viaa latent graph among multiple heterogeneous, interactive agents. Both trajectory information and context information (e.g. scene images, semantic maps, point cloud density maps) canbe incorporated into the system. <br><br>
+                    <b>Dynamic Relational Reasoning</b>: We propose a dynamic mechanism to evolve the underlying interaction graph adaptivelyalong time, which captures the dynamics of interaction patterns among multiple agents. We also introduce a double-stage training pipeline which not only improves training efficiencyand accelerates convergence, but also enhances model performance in terms of prediction accuracy. <br><br>
+                    <b>Uncertainty and Multi-Modality</b>: The proposed framework is designed to capture the uncertainty and multi-modality of future trajectories in nature from multiple aspects.<br>
                   </td>
               </tr>
 <!-- 
@@ -264,6 +267,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
 
         <hr>
          <!-- <table align=center width=550px> -->
+          <br>
                 <center><h1>Particle Physics System</h1></center>
                 <table align=center width=900px>
                     <tr>
@@ -288,13 +292,14 @@ We posit that pedestrians in the scene move towards a predetermined position and
                     <tr>
                         <td width=600px colspan="3">
                                             <br>
-                              <span style="font-size:18px"><b> Visualizing Multimodality Predictions:</b> Qualitative results for diverse multi-modal predictions produced by PECNet on the <a href="https://cvgl.stanford.edu/projects/uav_data/"> Stanford Drone Dataset</a>. 
+                              <span style="font-size:18px"><b>Visualization of latent interaction graph evolution and particle trajectories:</b> (a) The top two figures show the probability of the first edge type ("with link") at each time step. Each row corresponds to a certain edge (shown in the right). The actual times of graph evolution are 54 and 62, respectively. The model is able to capture the underlying criterion of relation change and further predict the change of edge types with nearly no delay. (b) The figures in the last row show trajectory prediction results, where semi-transparent dots are historical observations. Please refer to the paper for more details.
                         </td>
                     </tr>
                 </table>
                 <br>
       <hr>
       <table align=center width=800>
+        <br>
        <center><h1>Multi-Modal Vehicle Predictions</h1></center>
           <tr class="spaceUnder">
             <td>
@@ -305,7 +310,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
 
         <tr>
           <td colspan="3"> <br>
-            <span style="font-size:18px"><b> Qualitative Results  please see <a href="https://arxiv.org/pdf/2004.02025.pdf">our paper</a>.  
+            <span style="font-size:18px"><b> Qualitative results of testing cases of H3D dataset</b>: Dashed lines are historical trajectories, solid lines are ground truth, and dash-dotted lines are prediction hypothesis. White areas represent drivable areas and gray areas represent sidewalks. We plotted the prediction hypothesis with the minimal ADE, and the heatmap to represent the distributions. (a) Intersection; (b) Roundabout. We can tell that our framework can generate accurate and plausible trajectories. These results also show that the evolving interaction graph can reinforce the multi-modal property of our model, since different samples of trajectories at the previous steps lead to different directions of graph evolution, which significantly influences the prediction afterwards. Please refer to the paper for more details.
           </td>
         </tr>
       </table>
@@ -335,12 +340,12 @@ We posit that pedestrians in the scene move towards a predetermined position and
       <table align=center width=900>
        <center><h1>Paper</h1></center>
           <tr>
-            <td><a href="https://arxiv.org/pdf/2004.02025.pdf"><img align=center style="width:400px" src="paper_collage.png"/></a></td>
-            <td><span style="font-size:14pt">J. Li, F. Yang, M. Tomizuka, C. Choi.<br><br>
+            <td><a href="https://jiachenli94.github.io/publications/Evolvegraph/"><img align=center style="width:400px" src="paper_combine.png"/></a></td>
+            <td><span style="font-size:14pt">J. Li*, F. Yang*, M. Tomizuka, C. Choi.<br><br>
               EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning<br><br>
-            NeurIPS 2020  <a href = "https://eccv2020.eu/"> </a><br><br>
-                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp;
-                <a href="https://github.com/HarshayuGirase/PECNet">[Video](coming soon)</a> &nbsp; &nbsp;
+            NeurIPS 2020  <a href = "https://nips.cc/"> </a><br><br>
+                <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Paper]</a> &nbsp; &nbsp;
+                <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Video](coming soon)</a> &nbsp; &nbsp;
                 <a href="bibtex.txt">[Bibtex]</a>
                 
             <!-- [hosted on <a href="#">arXiv</a>]</a> -->

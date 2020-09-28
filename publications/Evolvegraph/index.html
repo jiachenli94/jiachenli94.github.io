@@ -298,21 +298,58 @@ We posit that pedestrians in the scene move towards a predetermined position and
                 </table>
                 <br>
       <hr>
+
       <table align=center width=800>
         <br>
-       <center><h1>Multi-Modal Vehicle Predictions</h1></center>
+       <center><h1>Trajectory Prediction in Various Applications</h1></center>
           <tr class="spaceUnder">
             <td>
-              <img style="width:1000px" src="vehicles.png"/>
+              <img style="width:1050px" src="tables.png"/>
             </td>
           
-      </tr>
+          </tr>
 
         <tr>
           <td colspan="3"> <br>
-            <span style="font-size:18px"><b> Qualitative results of testing cases of H3D dataset</b>: Dashed lines are historical trajectories, solid lines are ground truth, and dash-dotted lines are prediction hypothesis. White areas represent drivable areas and gray areas represent sidewalks. We plotted the prediction hypothesis with the minimal ADE, and the heatmap to represent the distributions. (a) Intersection; (b) Roundabout. We can tell that our framework can generate accurate and plausible trajectories. These results also show that the evolving interaction graph can reinforce the multi-modal property of our model, since different samples of trajectories at the previous steps lead to different directions of graph evolution, which significantly influences the prediction afterwards. Please refer to the paper for more details.
+            <span style="font-size:18px"><b> Quantitative results on various benchmark datasets in different areas</b>: In this paper, we validated the proposed framework EvolveGraph on three benchmark datasets for real-world applications: H3D dataset (traffic scenarios), NBA dataset (sports games), and SDD dataset (university campus). The experimental results demonstrate that EvolveGraph achieves state-of-the-art performance in terms of minADE and minFDE. Please refer to the paper for more details.
           </td>
         </tr>
+
+        
+      </table>
+
+      <table align=center width=800>
+        <br>
+       <center><h1>Multi-Modal Future Prediction</h1></center>
+          <tr class="spaceUnder">
+            <td>
+              <img style="width:1050px" src="vehicles.png"/>
+            </td>
+          
+          </tr>
+
+        <tr>
+          <td colspan="3"> <br>
+            <span style="font-size:18px"><b> Qualitative results of testing cases on the H3D dataset</b>: Dashed lines are historical trajectories, solid lines are ground truth, and dash-dotted lines are prediction hypothesis. White areas represent drivable areas and gray areas represent sidewalks. We plotted the prediction hypothesis with the minimal ADE, and the heatmap to represent the distributions. (a) Intersection; (b) Roundabout. We can tell that our framework can generate accurate and plausible trajectories. These results also show that the evolving interaction graph can reinforce the multi-modal property of our model, since different samples of trajectories at the previous steps lead to different directions of graph evolution, which significantly influences the prediction afterwards. Please refer to the paper for more details.
+          </td>
+        </tr>
+
+        <table align=center width=800>
+        <br>
+          <tr class="spaceUnder">
+            <td>
+              <img style="width:1050px" src="sports.png"/>
+            </td>
+          
+          </tr>
+
+        <tr>
+          <td colspan="3"> <br>
+            <span style="font-size:18px"><b> Qualitative results of testing cases on the NBA dataset</b>: Dashed lines are historical trajectories, solid lines are ground truth, and dash-dotted lines are prediction hypothesis. We plotted the prediction hypothesis with the minimal ADE, and the heatmap to represent the distributions. We can tell that in these cases the ball follows a player at most times, which implies that the predicted results represent plausible situations. Most prediction hypotheses are very close to the groundtruth, even if some predictions are not similar to the ground truth, they represent a plausible behavior. Moreover, the heatmaps show that our model can successfully predict most reasonable future trajectories and their multi-modal distributions. Please refer to the paper for more details.
+          </td>
+        </tr>
+
+        
       </table>
     <br>
 
@@ -343,7 +380,7 @@ We posit that pedestrians in the scene move towards a predetermined position and
             <td><a href="https://jiachenli94.github.io/publications/Evolvegraph/"><img align=center style="width:400px" src="paper_combine.png"/></a></td>
             <td><span style="font-size:16pt">J. Li*, F. Yang*, M. Tomizuka, C. Choi.<br><br>
               EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning<br><br>
-            NeurIPS 2020  <a href = "https://nips.cc/"> </a><br><br>
+              <a href = "https://nips.cc/">NeurIPS 2020</a><br><br>
                 <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Paper]</a> &nbsp; &nbsp;
                 <a href="https://jiachenli94.github.io/publications/Evolvegraph/">[Video](coming soon)</a> &nbsp; &nbsp;
                 <a href="bibtex.txt">[Bibtex]</a>

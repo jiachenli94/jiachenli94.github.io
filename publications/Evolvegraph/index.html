@@ -1,0 +1,374 @@
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+    body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight:300;
+        font-size:18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+    }
+
+    h1 {
+        font-weight:300;
+    }
+
+    .disclaimerbox {
+        background-color: #eee;
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        padding: 20px;
+    }
+
+    video.header-vid {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.header-img {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.rounded {
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    a:link,a:visited
+    {
+        color: #1367a7;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #208799;
+    }
+
+    td.dl-link {
+        height: 160px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    tr.spaceUnder>td {
+        padding-bottom: 10px;
+    }
+    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+                15px 15px 0 0px #fff, /* The fourth layer */
+                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+                20px 20px 0 0px #fff, /* The fifth layer */
+                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+                25px 25px 0 0px #fff, /* The fifth layer */
+                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+    }
+
+
+    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+
+    .vert-cent {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    hr
+    {
+        border: 0;
+        height: 1.5px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+</style>
+
+<html>
+  <head>
+        <title>EvolveGraph</title>
+        <meta property="og:title" content="sceneflow" />
+        <!-- <meta property="og:url" content="https://www.youtube.com/watch?v=cYHQKtBLI3Q" /> -->
+  </head>
+
+  <body>
+    <br>
+    <center>
+    <span style="font-size:42px">EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning </span>
+
+
+    <!-- </center> -->
+    
+    <br>
+    <br>
+      <table align=center width=800px>
+
+     <tr>
+       <span style="font-size:22px"><a href="https://karttikeya.github.io/">Jiachen Li*</a></span><sup>1,2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="https://www.linkedin.com/in/harshayu-girase-764b06153">Fan Yang*</a></span><sup>2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="https://www.linkedin.com/in/shreyas-agarwal-086267146">Masayoshi Tomizuka</a></span><sup>2</sup>,&nbsp;&nbsp;
+      <span style="font-size:22px"><a href="https://www.linkedin.com/in/kuan-hui-lee-23730370">Chiho Choi</a></span><sup>1</sup>&nbsp;&nbsp;
+   </tr>
+
+
+     <tr>
+       <td align=center colspan="2" style="font-size:22px">
+       <center>
+       <sup>1</sup>Honda Research Institute
+       </center>
+       </td>
+
+      <td align=center colspan="2" style="font-size:22px">
+      <center>
+      <sup>2</sup>University of California, Berkeley
+      </center>
+      </td>
+
+    </table>
+
+        <br> 
+    <table align=center width=700px>
+       <tr>
+        <td align=center width=100px>
+        <center>
+        <span style="font-size:28px">NeurIPS 2020 </span>
+        </center>
+        </td>
+     </tr>
+    </table>
+         <table align=center width=900>
+          <tr>
+                
+                 <span style="font-size:28px">
+                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <a href="https://www.youtube.com/watch?v=XCWCHwGlBgE">[Video](coming soon)</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="bibtex.txt">[Bibtex]</a> &nbsp; &nbsp; &nbsp; &nbsp; 
+
+              </span>
+              <br>
+             <!-- <br>
+              <br>
+              <br> -->
+              <!--
+              <center><h1>Overview Video</h1></center>
+              <iframe width="900" height="660" src="https://www.youtube.com/embed/XCWCHwGlBgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- [hosted on <a href="#">arXiv</a>]</a> -->
+              </td>
+        </tr>
+      </table>
+            <!--
+            <br>
+            <table align=center width=600px>
+                <tr>
+                    <td width=700px>
+                      <center>
+                          <img src = "teaser.jpg" height="180px"></img><br>
+                    </center>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td colspan="3"> <br>
+                In the first image, can you predict what the human is going to do next? Depending on his intention, the person can choose to turn left to climb up stairs; he may also go straight through the hallway or turn right to fetch some items off the table. In this work, we propose a method to generate long-term stochastic predictions of future 3D human motion, while also considering the scene context.
+    Given one single RGB image and 2D human pose history, our method first generates multiple possible future 2D destinations, then predicts future 3D human paths towards each destination, as shown in the middle, and finally generates 3D human pose sequences following the path, shown in the ground-truth 3D point cloud of the scene in the right. We train our model on both real-world data with noisy ground-truth and our newly-created large-scale synthetic data with diverse scenes, characters, and motions. Both quantitative comparisons and qualitative results demonstrate that our method can generate plausible scene-adaptive predictions.
+                  </td>
+                </tr>
+            </table>
+
+
+          <hr> -->
+<!--           <br>
+          <br> -->
+<!--           <center>
+            <table align=center width=700>
+                <tr>
+              
+                  <td><video width="700px" controls> <source src="hmp.m4v" type=video/mp4><video></td>
+              
+              </tr>
+            </table>
+          </center> -->
+          
+          <br>
+
+          <!-- <hr> -->
+          <center><h1>Abstract</h1></center>
+          <table align=center width=1000px>
+              <tr>
+                  <td width=1000px>
+<!--                     <center>
+                        <img src = "teaser.jpg" height="500px"></img><br>
+                  </center> -->
+                  <br>
+                  <span style="font-size:20px"> Multi-agent interacting systems are prevalent in the world, from pure physical systems to complicated social dynamic systems. In many applications, effective understanding of the situation and accurate trajectory prediction of interactive agents play a significant role in downstream tasks, such as decision making and planning. In this paper, we propose a generic trajectory forecasting framework (named EvolveGraph) with explicit relational structure recognition and prediction via latent interaction graphs among multiple heterogeneous, interactive agents. Considering the uncertainty of future behaviors, the model is designed to provide multi-modal prediction hypotheses. Since the underlying interactions may evolve even with abrupt changes, and different modalities of evolution may lead to different outcomes, we address the necessity of dynamic relational reasoning and adaptively evolving the interaction graphs. We also introduce a double-stage training pipeline which not only improves training efficiency and accelerates convergence, but also enhances model performance. The proposed framework is evaluated on both synthetic physics simulations and multiple real- world benchmark datasets in various areas. The experimental results illustrate that our approach achieves state-of-the-art performance in terms of prediction accuracy.
+                  </td>
+              </tr>
+
+              <tr>
+                <td colspan="3"> <br>
+
+                </td>
+              </tr>
+          </table>
+
+
+          <hr>
+          <center><h1>Key Ideas and Contributions</h1></center>
+          <table align=center width=600px>
+              <tr>
+                  <td width=700px>
+                    <center>
+                        <img src = "graphical_model.png" height="300px"></img><br>
+                  </center>
+                  <br>
+                  <span style="font-size:18px"> <b>Imitating the Human Path Planning Process</b>: We posit that pedestrians in the scene move towards a predetermined position and interactions such as social signalling shape their trajectories only locally while they still go along achieving their original intention. 
+                  </td>
+              </tr>
+<!-- 
+We posit that pedestrians in the scene move towards a predetermined position and interactions such as social cues happen as they go along achieving this intention without changing the predilection while still shaping their trajectories locally. 
+               -->
+              <tr>
+                <td colspan="3"> <br>
+
+                </td>
+              </tr>
+          </table>
+
+
+        <hr>
+         <!-- <table align=center width=550px> -->
+                <center><h1>Particle Physics System</h1></center>
+                <table align=center width=900px>
+                    <tr>
+                        <td width=1200px colspan="3">
+                          <center>
+                              <img src = "physics.png" height="540px"></img><br>
+                        </center>
+                        </td>
+                    </tr>
+<!--                     <tr>
+                      <td align=center width=400px>
+                        (a)
+                      </td>
+                      <td align=center width=400px>
+                        (b)
+                      </td>
+                      <td align=center width=400px>
+                        (c)
+                      </td>
+                  </tr> -->
+
+                    <tr>
+                        <td width=600px colspan="3">
+                                            <br>
+                              <span style="font-size:18px"><b> Visualizing Multimodality Predictions:</b> Qualitative results for diverse multi-modal predictions produced by PECNet on the <a href="https://cvgl.stanford.edu/projects/uav_data/"> Stanford Drone Dataset</a>. 
+                        </td>
+                    </tr>
+                </table>
+                <br>
+      <hr>
+      <table align=center width=800>
+       <center><h1>Multi-Modal Vehicle Predictions</h1></center>
+          <tr class="spaceUnder">
+            <td>
+              <img style="width:1000px" src="vehicles.png"/>
+            </td>
+          
+      </tr>
+
+        <tr>
+          <td colspan="3"> <br>
+            <span style="font-size:18px"><b> Qualitative Results  please see <a href="https://arxiv.org/pdf/2004.02025.pdf">our paper</a>.  
+          </td>
+        </tr>
+      </table>
+    <br>
+
+    <!--
+    <hr>
+      <table align=center width=800>
+       <center><h1>Multi-Modal Sports Player Predictions</h1></center>
+          <tr class="spaceUnder">
+            <td>
+              <img style="width:1000px" src="sports.png"/>
+            </td>
+          
+      </tr>
+
+        <tr>
+          <td colspan="3"> <br>
+            <span style="font-size:18px"><b> Qualitative Results  please see <a href="https://arxiv.org/pdf/2004.02025.pdf">our paper</a>.  
+          </td>
+        </tr>
+      </table>
+    <br>
+  -->
+
+    <hr>
+      <table align=center width=900>
+       <center><h1>Paper</h1></center>
+          <tr>
+            <td><a href="https://arxiv.org/pdf/2004.02025.pdf"><img align=center style="width:400px" src="paper_collage.png"/></a></td>
+            <td><span style="font-size:14pt">J. Li, F. Yang, M. Tomizuka, C. Choi.<br><br>
+              EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning<br><br>
+            NeurIPS 2020  <a href = "https://eccv2020.eu/"> </a><br><br>
+                <a href="https://arxiv.org/pdf/2004.02025.pdf">[Paper]</a> &nbsp; &nbsp;
+                <a href="https://github.com/HarshayuGirase/PECNet">[Video](coming soon)</a> &nbsp; &nbsp;
+                <a href="bibtex.txt">[Bibtex]</a>
+                
+            <!-- [hosted on <a href="#">arXiv</a>]</a> -->
+              </td>
+        </tr>
+      </table>
+    <br>
+    <!--
+    <hr>
+      <center><h1>Code</h1></center>
+      <tr>
+        <td>
+          <span style="font-size:28px">&nbsp;<a href='#'>[GitHub]</a>  (coming soon)
+        </td>
+      <br>
+      -->
+      <hr>
+            <table align=center width=950px>
+                <tr>
+                    <td>
+                      <left>
+                <center><h1>Acknowledgements</h1></center>
+                This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+            </left>
+        </td>
+        </tr>
+        </table>
+
+        <br><br>
+</body>
+</html>

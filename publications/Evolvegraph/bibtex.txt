@@ -1,0 +1,6 @@
+@inproceedings{li2020Evolvegraph,
+  title={EvolveGraph: Multi-Agent Trajectory Prediction with Dynamic Relational Reasoning},
+  author={Li, Jiachen and Yang, Fan and Tomizuka, Masayoshi and Choi, Chiho},
+  booktitle={Proceedings of the Neural Information Processing Systems (NeurIPS)},
+  year={2020}
+}
